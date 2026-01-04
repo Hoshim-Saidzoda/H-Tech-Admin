@@ -9,7 +9,7 @@ import {
   editSubCategoryAtom,
   deleteSubCategoryAtom,
   SubCategory,
-} from "../store/SubCategory";
+} from "../store/subcategory";
 
 const CategoryDetailPage: React.FC = () => {
   const { categoryId } = useParams<{ categoryId: string }>();
